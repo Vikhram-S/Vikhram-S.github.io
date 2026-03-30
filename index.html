@@ -21,6 +21,7 @@ h2 {
     margin-top: 30px;
     font-size: 18px;
     border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
 }
 a {
     color: black;
@@ -33,8 +34,7 @@ a:hover {
     font-size: 14px;
 }
 img {
-    width: 100%;
-    margin-top: 10px;
+    max-width: 100%;
     border-radius: 6px;
 }
 </style>
@@ -42,27 +42,40 @@ img {
 
 <body>
 
-<h1>Vikhram S</h1>
+<!-- HEADER WITH PHOTO -->
+<div style="display: flex; align-items: center; gap: 20px;">
 
-<p class="small">
-<a href="mailto:vikhrams@saveetha.ac.in">Email</a> |
-<a href="https://github.com/Vikhram-S">GitHub</a> |
-<a href="https://orcid.org/0009-0002-5300-7591">ORCID</a>
-</p>
+    <img src="images/profile.jpg" alt="Vikhram S"
+         style="width:120px; height:120px; object-fit: cover; border-radius: 6px;">
 
-<p>
-Undergraduate researcher working on Vision–Language Models, multimodal learning, and explainable AI for healthcare applications.
-</p>
+    <div>
+        <h1 style="margin:0;">Vikhram S</h1>
 
+        <p class="small" style="margin:5px 0;">
+            <a href="mailto:vikhrams@saveetha.ac.in">Email</a> |
+            <a href="https://github.com/Vikhram-S">GitHub</a> |
+            <a href="https://orcid.org/0009-0002-5300-7591">ORCID</a> |
+            <a href="https://linkedin.com/in/vikhram-s">LinkedIn</a>
+        </p>
+
+        <p style="margin:5px 0;">
+        I am interested in Vision--Language Models, multimodal learning, and explainable AI, with a focus on healthcare applications such as radiology and dermatology. My work explores interpretable multimodal systems and the integration of small language models. Broadly, my research lies at the intersection of Natural Language Processing, Computer Vision, and Deep Learning.
+        </p>
+    </div>
+
+</div>
+
+<!-- RESEARCH INTERESTS -->
 <h2>Research Interests</h2>
 <p>
-Interpretable multimodal systems integrating vision and language, with applications in radiology and medical AI.
+Interpretable multimodal systems, Vision--Language Models, and explainable AI for healthcare applications.
 </p>
 
+<!-- PUBLICATIONS -->
 <h2>Publications</h2>
 
 <p>
-<b>Explainable SLM-Guided Vision–Language Model for Multi-Class Skin Lesion Recognition</b><br>
+<b>Explainable SLM-Guided Vision--Language Model for Multi-Class Skin Lesion Recognition</b><br>
 ICICC 2026, Springer LNNS
 </p>
 
@@ -71,10 +84,11 @@ ICICC 2026, Springer LNNS
 India AI Impact Summit 2026 (MeitY + UN Women)
 </p>
 
+<!-- PROJECTS -->
 <h2>Research Projects</h2>
 
 <p>
-<b>Vision–Language Model for Radiology Report Generation</b><br>
+<b>Vision--Language Model for Radiology Report Generation</b><br>
 <a href="https://huggingface.co/Vikhram-S/mimic-vit-biogpt">Model Repository</a><br>
 ViT + BioGPT trained on MIMIC-CXR dataset (20K samples).<br>
 BLEU-4: 0.016, ROUGE-L: 0.021, METEOR: 0.056.<br>
@@ -87,6 +101,7 @@ Explainability evaluation (Exp-IoU): 0.42.
 NLP-based legal text querying and retrieval system.
 </p>
 
+<!-- RECOGNITION -->
 <h2>Recognition</h2>
 
 <p>
@@ -97,6 +112,7 @@ Selected contributor for work in gender-responsive AI.
 <!-- IMAGE PLACEHOLDER -->
 <img src="images/un_women_award.jpg" alt="UN Women Recognition">
 
+<!-- CONTACT -->
 <h2>Contact</h2>
 <p>Email: vikhrams@saveetha.ac.in</p>
 
