@@ -21,17 +21,35 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-        .media-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
+.media-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
+}
 
-        .media-gallery img {
-            width: 100%;
-            border-radius: 8px;
-        }
+/* Image styling */
+.media-gallery img {
+    width: 100%;
+    height: 180px;              /* controls size */
+    object-fit: cover;          /* crops nicely */
+    border-radius: 8px;
+    display: block;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .media-gallery img {
+        height: 150px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .media-gallery img {
+        height: 130px;
+    }
+}
 
         .highlight {
             background: #000;
