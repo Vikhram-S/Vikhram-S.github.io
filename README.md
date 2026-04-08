@@ -121,6 +121,3 @@ To change fonts, update the Google Fonts link in the HTML files and the CSS vari
 - Safari (latest)
 - Edge (latest)
 
-## License
-
-This website template is for Vikhram S's personal use.
