@@ -4,8 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Security headers (meta-tag level — see note on index.html about
+         GitHub Pages not supporting real HTTP response headers) -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self';
+                 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+                 font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+                 img-src 'self' data: https:;
+                 connect-src 'self';
+                 object-src 'none';
+                 base-uri 'self';
+                 form-action 'self';
+                 upgrade-insecure-requests;">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="robots" content="index, follow">
+
     <meta name="description" content="Honors and awards received by Vikhram S">
+    <meta name="author" content="Vikhram S">
     <title>Honors | Vikhram S</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vikhram-s.github.io/honors.html">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Honors | Vikhram S">
+    <meta property="og:description" content="Honors and awards received by Vikhram S.">
+    <meta property="og:url" content="https://vikhram-s.github.io/honors.html">
+    <meta property="og:image" content="https://vikhram-s.github.io/images/profile.jpg">
+    <meta property="og:site_name" content="Vikhram S">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Honors | Vikhram S">
+    <meta name="twitter:description" content="Honors and awards received by Vikhram S.">
+    <meta name="twitter:image" content="https://vikhram-s.github.io/images/profile.jpg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +47,10 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Icons — SRI-protected, same verified hash as other pages -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -72,7 +107,7 @@
         <ul>
             <li><strong>Springer Research Publication, ICICC 2026</strong></li>
             <li>Authored <em>Explainable SLM-Guided Vision–Language Model for Multi-Class Skin Lesion Recognition</em>, advancing interpretable multimodal AI for healthcare.</li>
-            <li>Published in Springer's <a href="https://doi.org/10.1007/978-3-032-30310-3_49" target="_blank"><em>Lecture Notes in Networks and Systems (LNNS)</em></a> series.</li>
+            <li>Published in Springer's <a href="https://doi.org/10.1007/978-3-032-30310-3_49" target="_blank" rel="noopener noreferrer"><em>Lecture Notes in Networks and Systems (LNNS)</em></a> series.</li>
             <li>Ranked among the top 15% of papers received and reviewed at ICICC 2026.</li>
             <li>Indexed by Scopus, DBLP, zbMATH, EI Compendex, and SCImago.</li>
         </ul>
@@ -136,10 +171,10 @@
                 <div class="footer-section">
                     <h4>Connect</h4>
                     <ul class="footer-links">
-                        <li><a href="mailto:vikhrams@saveetha.ac.in">Email</a></li>
-                        <li><a href="https://github.com/Vikhram-S" target="_blank">GitHub</a></li>
-                        <li><a href="https://huggingface.co/Vikhram-S" target="_blank">Hugging Face</a></li>
-                        <li><a href="https://www.linkedin.com/in/vikhram-s" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:vikhrams@saveetha.ac.in" rel="nofollow">Email</a></li>
+                        <li><a href="https://github.com/Vikhram-S" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://huggingface.co/Vikhram-S" target="_blank" rel="noopener noreferrer">Hugging Face</a></li>
+                        <li><a href="https://www.linkedin.com/in/vikhram-s" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
@@ -155,7 +190,7 @@
     </button>
 
     <!-- JavaScript -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
