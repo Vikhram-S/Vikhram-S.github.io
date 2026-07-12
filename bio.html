@@ -4,9 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Security headers (meta-tag level — see note on index.html about
+         GitHub Pages not supporting real HTTP response headers) -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self';
+                 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+                 font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+                 img-src 'self' data: https:;
+                 connect-src 'self';
+                 object-src 'none';
+                 base-uri 'self';
+                 form-action 'self';
+                 upgrade-insecure-requests;">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="robots" content="index, follow">
+
     <meta name="description"
         content="Full biography of Vikhram S, AI researcher focusing on vision-language models and explainable AI">
+    <meta name="author" content="Vikhram S">
     <title>Biography | Vikhram S</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vikhram-s.github.io/bio.html">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Biography | Vikhram S">
+    <meta property="og:description"
+        content="Full biography of Vikhram S, AI researcher focusing on vision-language models and explainable AI.">
+    <meta property="og:url" content="https://vikhram-s.github.io/bio.html">
+    <meta property="og:image" content="https://vikhram-s.github.io/images/profile.jpg">
+    <meta property="og:site_name" content="Vikhram S">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Biography | Vikhram S">
+    <meta name="twitter:description"
+        content="Full biography of Vikhram S, AI researcher focusing on vision-language models and explainable AI.">
+    <meta name="twitter:image" content="https://vikhram-s.github.io/images/profile.jpg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,8 +50,10 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Icons — SRI-protected, same verified hash as index.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -60,9 +97,9 @@
 
 <p>His research centers on AI systems that integrate perception, language, retrieval, and structured reasoning to support decision-making in complex, high-stakes settings. He has developed multimodal frameworks for healthcare, including explainable vision–language models for dermatological diagnosis, confidence-aware inference pipelines, and interpretable architectures designed to improve transparency, reliability, and clinical trust.</p>
 
-<p>This work is published in Springer's <a href="https://doi.org/10.1007/978-3-032-30310-3_49" target="_blank"><em>Lecture Notes in Networks and Systems</em></a>, indexed in Scopus and Web of Science, and was recognized among the top 15 percent of papers reviewed at ICICC 2026. His research on gender-responsive AI for public safety was selected for the <a href="https://india.un.org/en/311003-real-world-impact-ai-and-gender-empowerment" target="_blank">India AI Impact Summit 2026 Compendium</a>, a joint initiative of India's Ministry of Electronics and Information Technology and UN Women, chosen from more than 235 submissions across 50 countries as one of 23 global case studies.</p>
+<p>This work is published in Springer's <a href="https://doi.org/10.1007/978-3-032-30310-3_49" target="_blank" rel="noopener noreferrer"><em>Lecture Notes in Networks and Systems</em></a>, indexed in Scopus and Web of Science, and was recognized among the top 15 percent of papers reviewed at ICICC 2026. His research on gender-responsive AI for public safety was selected for the <a href="https://india.un.org/en/311003-real-world-impact-ai-and-gender-empowerment" target="_blank" rel="noopener noreferrer">India AI Impact Summit 2026 Compendium</a>, a joint initiative of India's Ministry of Electronics and Information Technology and UN Women, chosen from more than 235 submissions across 50 countries as one of 23 global case studies.</p>
 
-<p>He is the creator of <em>IndianConstitution</em>, an open source constitutional intelligence platform for the semantic analysis of India's constitutional texts, now exceeding 31,000 downloads and used as research infrastructure across legal NLP, civic technology, and governance-oriented AI. He advises <a href="https://techsociety.vercel.app/" target="_blank">Tech Society</a> at Saveetha Engineering College on machine learning research and mentors undergraduate researchers in the field.</p>
+<p>He is the creator of <em>IndianConstitution</em>, an open source constitutional intelligence platform for the semantic analysis of India's constitutional texts, now exceeding 31,000 downloads and used as research infrastructure across legal NLP, civic technology, and governance-oriented AI. He advises <a href="https://techsociety.vercel.app/" target="_blank" rel="noopener noreferrer">Tech Society</a> at Saveetha Engineering College on machine learning research and mentors undergraduate researchers in the field.</p>
 
 <p>His work increasingly engages the relationship between artificial intelligence, institutions, and society, spanning AI governance, digital public infrastructure, and the design of trustworthy systems for public decision-making. He earned a B.E. in Electronics and Communication Engineering from Saveetha Engineering College, India, in 2026.</p>
             </div>
@@ -88,10 +125,10 @@
                 <div class="footer-section">
                     <h4>Connect</h4>
                     <ul class="footer-links">
-                        <li><a href="mailto:vikhrams@saveetha.ac.in">Email</a></li>
-                        <li><a href="https://github.com/Vikhram-S" target="_blank">GitHub</a></li>
-                        <li><a href="https://huggingface.co/Vikhram-S" target="_blank">Hugging Face</a></li>
-                        <li><a href="https://www.linkedin.com/in/vikhram-s" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:vikhrams@saveetha.ac.in" rel="nofollow">Email</a></li>
+                        <li><a href="https://github.com/Vikhram-S" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://huggingface.co/Vikhram-S" target="_blank" rel="noopener noreferrer">Hugging Face</a></li>
+                        <li><a href="https://www.linkedin.com/in/vikhram-s" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
@@ -107,7 +144,7 @@
     </button>
 
     <!-- JavaScript -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
