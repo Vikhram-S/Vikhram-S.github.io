@@ -6,24 +6,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Security headers (meta-tag level — see note on index.html about
+         GitHub Pages not supporting real HTTP response headers) -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self';
+                 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+                 font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+                 img-src 'self' data: https:;
+                 connect-src 'self';
+                 object-src 'none';
+                 base-uri 'self';
+                 form-action 'self';
+                 upgrade-insecure-requests;">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="robots" content="index, follow">
 
-<meta name="description"
-    content="Publications by Vikhram S in artificial intelligence, multimodal systems, healthcare AI, and public-interest technology">
+    <meta name="description"
+        content="Publications by Vikhram S in artificial intelligence, multimodal systems, healthcare AI, and public-interest technology">
+    <meta name="author" content="Vikhram S">
 
-<title>Publications | Vikhram S</title>
+    <title>Publications | Vikhram S</title>
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
-    rel="stylesheet">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vikhram-s.github.io/publications.html">
 
-<!-- Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Publications | Vikhram S">
+    <meta property="og:description" content="Publications by Vikhram S in artificial intelligence, multimodal systems, healthcare AI, and public-interest technology.">
+    <meta property="og:url" content="https://vikhram-s.github.io/publications.html">
+    <meta property="og:image" content="https://vikhram-s.github.io/images/profile.jpg">
+    <meta property="og:site_name" content="Vikhram S">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Publications | Vikhram S">
+    <meta name="twitter:description" content="Publications by Vikhram S in artificial intelligence, multimodal systems, healthcare AI, and public-interest technology.">
+    <meta name="twitter:image" content="https://vikhram-s.github.io/images/profile.jpg">
 
-<!-- Styles -->
-<link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons — SRI-protected, same verified hash as other pages -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
@@ -100,12 +133,12 @@
         <div class="links">
 
             <a href="https://india.un.org/en/311003-real-world-impact-ai-and-gender-empowerment"
-                target="_blank">
+                target="_blank" rel="noopener noreferrer">
                 UN Women
             </a>
 
             <a href="files/Nariraksha.pdf"
-                target="_blank">
+                target="_blank" rel="noopener noreferrer">
                 PDF
             </a>
 
@@ -130,12 +163,12 @@
         </p>
 
         <div class="links">
-             <a href="files/Explainable SLM-Guided Vision–Language.pdf"
-                target="_blank">
+             <a href="files/Explainable%20SLM-Guided%20Vision%E2%80%93Language.pdf"
+                target="_blank" rel="noopener noreferrer">
                 PDF
             </a>
             <a href="https://doi.org/10.1007/978-3-032-30310-3_49"
-                target="_blank">
+                target="_blank" rel="noopener noreferrer">
                 Publisher
             </a>
 
@@ -202,10 +235,10 @@
                 <h4>Connect</h4>
 
                 <ul class="footer-links">
-                    <li><a href="mailto:vikhrams@saveetha.ac.in">Email</a></li>
-                    <li><a href="https://www.linkedin.com/in/vikhram-s/" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/Vikhram-S" target="_blank">GitHub</a></li>
-                    <li><a href="https://orcid.org/0009-0002-5300-7591" target="_blank">ORCID</a></li>
+                    <li><a href="mailto:vikhrams@saveetha.ac.in" rel="nofollow">Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/vikhram-s/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="https://github.com/Vikhram-S" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://orcid.org/0009-0002-5300-7591" target="_blank" rel="noopener noreferrer">ORCID</a></li>
                 </ul>
             </div>
 
@@ -224,7 +257,7 @@
 </button>
 
 <!-- JavaScript -->
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 
 
 </body>
