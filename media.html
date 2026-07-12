@@ -4,9 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Security headers (meta-tag level — see note on index.html about
+         GitHub Pages not supporting real HTTP response headers) -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self';
+                 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+                 font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+                 img-src 'self' data: https:;
+                 connect-src 'self';
+                 object-src 'none';
+                 base-uri 'self';
+                 form-action 'self';
+                 upgrade-insecure-requests;">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="robots" content="index, follow">
+
     <meta name="description"
         content="Media and public presence of Vikhram S covering AI research, policy engagement, and technical work">
+    <meta name="author" content="Vikhram S">
     <title>Media | Vikhram S</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vikhram-s.github.io/media.html">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Media | Vikhram S">
+    <meta property="og:description" content="Media and public presence of Vikhram S covering AI research, policy engagement, and technical work.">
+    <meta property="og:url" content="https://vikhram-s.github.io/media.html">
+    <meta property="og:image" content="https://vikhram-s.github.io/images/profile.jpg">
+    <meta property="og:site_name" content="Vikhram S">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Media | Vikhram S">
+    <meta name="twitter:description" content="Media and public presence of Vikhram S covering AI research, policy engagement, and technical work.">
+    <meta name="twitter:image" content="https://vikhram-s.github.io/images/profile.jpg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,8 +48,10 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Icons — SRI-protected, same verified hash as other pages -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -65,10 +100,10 @@
         <!-- Calista Redmond -->
 
         <a href="images/With Calista Redmond,Vice President,Global AI Initiatives,Nvidia.jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/With Calista Redmond,Vice President,Global AI Initiatives,Nvidia.jpg"
-                    alt="Calista Redmond">
+                    alt="Calista Redmond" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">Global AI Leadership</p>
@@ -87,10 +122,10 @@
         <!-- Pradeep Gupta -->
 
         <a href="images/With Pradeep Gupta,Vice President,Solutions and Architecure, Nvidia.jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/With Pradeep Gupta,Vice President,Solutions and Architecure, Nvidia.jpg"
-                    alt="Pradeep Gupta">
+                    alt="Pradeep Gupta" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">Industry Engagement</p>
@@ -109,10 +144,10 @@
         <!-- Dr Jacki O'Neill -->
 
         <a href="images/With Dr. Jacki O' Neill, Director, Microsoft Research Africa..jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/With Dr. Jacki O' Neill, Director, Microsoft Research Africa..jpg"
-                    alt="Dr Jacki O Neill">
+                    alt="Dr Jacki O Neill" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">Research Leadership</p>
@@ -131,10 +166,10 @@
         <!-- Christine Arab -->
 
         <a href="images/With Christine Arab, Regional Director,  UN Women,  Asia Pacific.jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/With Christine Arab, Regional Director,  UN Women,  Asia Pacific.jpg"
-                    alt="Christine Arab">
+                    alt="Christine Arab" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">India AI Impact Summit 2026</p>
@@ -153,10 +188,10 @@
         <!-- John Fanelli -->
 
         <a href="images/With John Fanelli, Vice President,Enterprise Software,Nvidia.jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/With John Fanelli, Vice President,Enterprise Software,Nvidia.jpg"
-                    alt="John Fanelli">
+                    alt="John Fanelli" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">Enterprise AI</p>
@@ -175,10 +210,10 @@
         <!-- Aisha Bryant -->
 
         <a href="images/Dr. Aisha Walcott Bryant , Head of Research, Google Africa.jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/Dr. Aisha Walcott Bryant , Head of Research, Google Africa.jpg"
-                    alt="Dr Aisha Walcott Bryant">
+                    alt="Dr Aisha Walcott Bryant" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">AI Research</p>
@@ -197,10 +232,10 @@
         <!-- Vukosi -->
 
         <a href="images/With Prof. Vukosi Mariwat, Professor of Computer Science, University of Pretoria..jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/With Prof. Vukosi Mariwat, Professor of Computer Science, University of Pretoria..jpg"
-                    alt="Prof Vukosi Marivate">
+                    alt="Prof Vukosi Marivate" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">Academic Collaboration</p>
@@ -219,10 +254,10 @@
         <!-- World Bank -->
 
         <a href="images/With Adarsh Kumar-World Bank.jpg"
-            target="_blank" class="media-card-link">
+            target="_blank" rel="noopener noreferrer" class="media-card-link">
             <div class="media-card">
                 <img src="images/With Adarsh Kumar-World Bank.jpg"
-                    alt="Adarsh Kumar">
+                    alt="Adarsh Kumar" loading="lazy">
 
                 <div class="media-card-content">
                     <p class="date">Development and Technology</p>
@@ -278,10 +313,10 @@
                 <h4>Connect</h4>
 
                 <ul class="footer-links">
-                    <li><a href="mailto:vikhrams@saveetha.ac.in">Email</a></li>
-                    <li><a href="https://github.com/Vikhram-S" target="_blank">GitHub</a></li>
-                    <li><a href="https://huggingface.co/Vikhram-S" target="_blank">Hugging Face</a></li>
-                    <li><a href="https://www.linkedin.com/in/vikhram-s" target="_blank">LinkedIn</a></li>
+                    <li><a href="mailto:vikhrams@saveetha.ac.in" rel="nofollow">Email</a></li>
+                    <li><a href="https://github.com/Vikhram-S" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://huggingface.co/Vikhram-S" target="_blank" rel="noopener noreferrer">Hugging Face</a></li>
+                    <li><a href="https://www.linkedin.com/in/vikhram-s" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                 </ul>
 
             </div>
@@ -304,7 +339,7 @@
 
 
     <!-- JavaScript -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
