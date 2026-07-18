@@ -1,0 +1,458 @@
+[
+  {
+    "branch_code":"BY",
+    "branch_name":"Biomedical Engineering (SS)"
+  },
+  {
+    "branch_code":"CE",
+    "branch_name":"Civil Engineering"
+  },
+  {
+    "branch_code":"CS",
+    "branch_name":"Computer Science and Engineering"
+  },
+  {
+    "branch_code":"CM",
+    "branch_name":"Computer Science and Engineering (SS)"
+  },
+  {
+    "branch_code":"EC",
+    "branch_name":"Electronics and Communication Engineering"
+  },
+  {
+    "branch_code":"EM",
+    "branch_name":"Electronics and Communication Engineering (SS)"
+  },
+  {
+    "branch_code":"EE",
+    "branch_name":"Electrical and Electronics Engineering"
+  },
+  {
+    "branch_code":"GI",
+    "branch_name":"Geoinformatics"
+  },
+  {
+    "branch_code":"IE",
+    "branch_name":"Industrial Engineering"
+  },
+  {
+    "branch_code":"IM",
+    "branch_name":"Information Technology (SS)"
+  },
+  {
+    "branch_code":"MA",
+    "branch_name":"Materials Science and Engineering (SS)"
+  },
+  {
+    "branch_code":"MI",
+    "branch_name":"Mining Engineering"
+  },
+  {
+    "branch_code":"MN",
+    "branch_name":"Manufacturing Engineering"
+  },
+  {
+    "branch_code":"ME",
+    "branch_name":"Mechanical Engineering"
+  },
+  {
+    "branch_code":"XM",
+    "branch_name":"Mechanical Engineering (SS)"
+  },
+  {
+    "branch_code":"XC",
+    "branch_name":"Civil Engineering (SS)"
+  },
+  {
+    "branch_code":"PT",
+    "branch_name":"Printing and Packaging Technology"
+  },
+  {
+    "branch_code":"EL",
+    "branch_name":"EL Engineering"
+  },
+  {
+    "branch_code":"IT",
+    "branch_name":"Information Technology"
+  },
+  {
+    "branch_code":"SC",
+    "branch_name":"Computer Science and Engineering (Cyber Security)"
+  },
+  {
+    "branch_code":"AM",
+    "branch_name":"Artificial Intelligence and Machine Learning"
+  },
+  {
+    "branch_code":"EF",
+    "branch_name":"EF Engineering"
+  },
+  {
+    "branch_code":"CA",
+    "branch_name":"CA Engineering"
+  },
+  {
+    "branch_code":"AD",
+    "branch_name":"Artificial Intelligence and Data Science"
+  },
+  {
+    "branch_code":"CB",
+    "branch_name":"Computer Science and Business Systems"
+  },
+  {
+    "branch_code":"AE",
+    "branch_name":"Aeronautical Engineering"
+  },
+  {
+    "branch_code":"EI",
+    "branch_name":"Electronics and Instrumentation Engineering"
+  },
+  {
+    "branch_code":"TX",
+    "branch_name":"TX Engineering"
+  },
+  {
+    "branch_code":"CO",
+    "branch_name":"CO Engineering"
+  },
+  {
+    "branch_code":"RM",
+    "branch_name":"RM Engineering"
+  },
+  {
+    "branch_code":"FD",
+    "branch_name":"FD Engineering"
+  },
+  {
+    "branch_code":"BT",
+    "branch_name":"Biotechnology"
+  },
+  {
+    "branch_code":"CU",
+    "branch_name":"CU Engineering"
+  },
+  {
+    "branch_code":"CV",
+    "branch_name":"CV Engineering"
+  },
+  {
+    "branch_code":"VL",
+    "branch_name":"VL Engineering"
+  },
+  {
+    "branch_code":"EG",
+    "branch_name":"EG Engineering"
+  },
+  {
+    "branch_code":"EV",
+    "branch_name":"EV Engineering"
+  },
+  {
+    "branch_code":"BM",
+    "branch_name":"Biomedical Engineering"
+  },
+  {
+    "branch_code":"AU",
+    "branch_name":"Automobile Engineering"
+  },
+  {
+    "branch_code":"CH",
+    "branch_name":"Chemical Engineering"
+  },
+  {
+    "branch_code":"MU",
+    "branch_name":"MU Engineering"
+  },
+  {
+    "branch_code":"MD",
+    "branch_name":"MD Engineering"
+  },
+  {
+    "branch_code":"PH",
+    "branch_name":"PH Engineering"
+  },
+  {
+    "branch_code":"AR",
+    "branch_name":"AR Engineering"
+  },
+  {
+    "branch_code":"AG",
+    "branch_name":"Agriculture Engineering"
+  },
+  {
+    "branch_code":"AL",
+    "branch_name":"AL Engineering"
+  },
+  {
+    "branch_code":"CD",
+    "branch_name":"CD Engineering"
+  },
+  {
+    "branch_code":"MZ",
+    "branch_name":"MZ Engineering"
+  },
+  {
+    "branch_code":"PE",
+    "branch_name":"PE Engineering"
+  },
+  {
+    "branch_code":"MB",
+    "branch_name":"MB Engineering"
+  },
+  {
+    "branch_code":"EA",
+    "branch_name":"EA Engineering"
+  },
+  {
+    "branch_code":"DA",
+    "branch_name":"DA Engineering"
+  },
+  {
+    "branch_code":"AO",
+    "branch_name":"AO Engineering"
+  },
+  {
+    "branch_code":"CG",
+    "branch_name":"CG Engineering"
+  },
+  {
+    "branch_code":"FT",
+    "branch_name":"Food Technology"
+  },
+  {
+    "branch_code":"CJ",
+    "branch_name":"CJ Engineering"
+  },
+  {
+    "branch_code":"PA",
+    "branch_name":"PA Engineering"
+  },
+  {
+    "branch_code":"RI",
+    "branch_name":"RI Engineering"
+  },
+  {
+    "branch_code":"CI",
+    "branch_name":"CI Engineering"
+  },
+  {
+    "branch_code":"ER",
+    "branch_name":"ER Engineering"
+  },
+  {
+    "branch_code":"CY",
+    "branch_name":"CY Engineering"
+  },
+  {
+    "branch_code":"CF",
+    "branch_name":"CF Engineering"
+  },
+  {
+    "branch_code":"IC",
+    "branch_name":"Instrumentation and Control Engineering"
+  },
+  {
+    "branch_code":"AP",
+    "branch_name":"AP Engineering"
+  },
+  {
+    "branch_code":"CL",
+    "branch_name":"CL Engineering"
+  },
+  {
+    "branch_code":"CR",
+    "branch_name":"CR Engineering"
+  },
+  {
+    "branch_code":"FS",
+    "branch_name":"FS Engineering"
+  },
+  {
+    "branch_code":"IB",
+    "branch_name":"IB Engineering"
+  },
+  {
+    "branch_code":"IS",
+    "branch_name":"IS Engineering"
+  },
+  {
+    "branch_code":"LE",
+    "branch_name":"LE Engineering"
+  },
+  {
+    "branch_code":"PP",
+    "branch_name":"PP Engineering"
+  },
+  {
+    "branch_code":"PM",
+    "branch_name":"PM Engineering"
+  },
+  {
+    "branch_code":"PR",
+    "branch_name":"Production Engineering"
+  },
+  {
+    "branch_code":"AS",
+    "branch_name":"AS Engineering"
+  },
+  {
+    "branch_code":"BS",
+    "branch_name":"BS Engineering"
+  },
+  {
+    "branch_code":"CN",
+    "branch_name":"CN Engineering"
+  },
+  {
+    "branch_code":"FY",
+    "branch_name":"FY Engineering"
+  },
+  {
+    "branch_code":"IY",
+    "branch_name":"IY Engineering"
+  },
+  {
+    "branch_code":"MF",
+    "branch_name":"MF Engineering"
+  },
+  {
+    "branch_code":"MS",
+    "branch_name":"MS Engineering"
+  },
+  {
+    "branch_code":"MT",
+    "branch_name":"Mechatronics Engineering"
+  },
+  {
+    "branch_code":"MY",
+    "branch_name":"MY Engineering"
+  },
+  {
+    "branch_code":"PN",
+    "branch_name":"PN Engineering"
+  },
+  {
+    "branch_code":"RA",
+    "branch_name":"Robotics and Automation"
+  },
+  {
+    "branch_code":"TT",
+    "branch_name":"Textile Technology"
+  },
+  {
+    "branch_code":"EY",
+    "branch_name":"EY Engineering"
+  },
+  {
+    "branch_code":"AT",
+    "branch_name":"AT Engineering"
+  },
+  {
+    "branch_code":"XS",
+    "branch_name":"XS Engineering"
+  },
+  {
+    "branch_code":"HT",
+    "branch_name":"HT Engineering"
+  },
+  {
+    "branch_code":"SF",
+    "branch_name":"SF Engineering"
+  },
+  {
+    "branch_code":"TC",
+    "branch_name":"TC Engineering"
+  },
+  {
+    "branch_code":"PC",
+    "branch_name":"PC Engineering"
+  },
+  {
+    "branch_code":"EX",
+    "branch_name":"EX Engineering"
+  },
+  {
+    "branch_code":"MC",
+    "branch_name":"MC Engineering"
+  },
+  {
+    "branch_code":"AI",
+    "branch_name":"Artificial Intelligence and Data Science"
+  },
+  {
+    "branch_code":"SB",
+    "branch_name":"SB Engineering"
+  },
+  {
+    "branch_code":"TS",
+    "branch_name":"TS Engineering"
+  },
+  {
+    "branch_code":"MO",
+    "branch_name":"MO Engineering"
+  },
+  {
+    "branch_code":"DS",
+    "branch_name":"DS Engineering"
+  },
+  {
+    "branch_code":"EN",
+    "branch_name":"EN Engineering"
+  },
+  {
+    "branch_code":"BC",
+    "branch_name":"BC Engineering"
+  },
+  {
+    "branch_code":"BP",
+    "branch_name":"BP Engineering"
+  },
+  {
+    "branch_code":"BA",
+    "branch_name":"BA Engineering"
+  },
+  {
+    "branch_code":"CK",
+    "branch_name":"CK Engineering"
+  },
+  {
+    "branch_code":"MJ",
+    "branch_name":"MJ Engineering"
+  },
+  {
+    "branch_code":"RP",
+    "branch_name":"Rubber and Plastics Technology"
+  },
+  {
+    "branch_code":"IN",
+    "branch_name":"IN Engineering"
+  },
+  {
+    "branch_code":"MR",
+    "branch_name":"MR Engineering"
+  },
+  {
+    "branch_code":"CZ",
+    "branch_name":"CZ Engineering"
+  },
+  {
+    "branch_code":"MM",
+    "branch_name":"MM Engineering"
+  },
+  {
+    "branch_code":"MG",
+    "branch_name":"MG Engineering"
+  },
+  {
+    "branch_code":"CW",
+    "branch_name":"CW Engineering"
+  },
+  {
+    "branch_code":"ID",
+    "branch_name":"ID Engineering"
+  },
+  {
+    "branch_code":"CC",
+    "branch_name":"CC Engineering"
+  }
+]
