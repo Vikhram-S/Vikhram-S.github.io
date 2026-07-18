@@ -1,0 +1,50 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"></stop>
+      <stop offset="100%" stop-color="#1E293B"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Star -->
+  <polygon points="250,40 258,62 282,62 262,76 270,98
+            250,84 230,98 238,76 218,62 242,62" fill="#D4AF37"></polygon>
+
+  <!-- Shield -->
+  <path d="
+      M250 90
+      L380 140
+      L380 280
+      C380 360 330 410 250 450
+      C170 410 120 360 120 280
+      L120 140
+      Z" fill="url(#shieldGradient)"></path>
+
+  <!-- Inner Border -->
+  <path d="
+      M250 110
+      L360 152
+      L360 275
+      C360 340 320 385 250 420
+      C180 385 140 340 140 275
+      L140 152
+      Z" fill="none" stroke="#D4AF37" stroke-width="4"></path>
+
+  <!-- Stylized V -->
+  <path d="
+      M185 180
+      L250 330
+      L315 180" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Research Nodes -->
+  <circle cx="185" cy="180" r="8" fill="#D4AF37"></circle>
+  <circle cx="250" cy="330" r="8" fill="#D4AF37"></circle>
+  <circle cx="315" cy="180" r="8" fill="#D4AF37"></circle>
+
+  <!-- Name -->
+  <text x="250" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="32" letter-spacing="4" fill="#0F172A">
+    VIKHRAM S
+  </text>
+
+</svg>
