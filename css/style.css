@@ -382,16 +382,15 @@ nav {
 
 /* CV Page */
 /* CV Page */
-.cv-download {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
 .cv-download--split {
     display: flex;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+}
+.cv-download {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .btn {
