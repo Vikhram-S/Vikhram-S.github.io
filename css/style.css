@@ -381,60 +381,114 @@ nav {
 }
 
 /* CV Page */
+/* CV Page — Document Selector */
 .cv-download {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.75rem 2rem;
-    background: var(--accent-color);
-    color: white;
-    border-radius: 8px;
-    font-weight: 500;
-    transition: var(--transition);
-}
-
-.btn:hover {
-    background: var(--primary-color);
-    color: white;
-    transform: translateY(-2px);
-}
-
-.cv-section {
-    margin-bottom: 2.5rem;
-}
-
-.cv-section h3 {
-    border-bottom: 2px solid var(--accent-color);
-    padding-bottom: 0.5rem;
+.doc-select-label {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
     margin-bottom: 1.5rem;
 }
 
-.cv-item {
+.doc-selector {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 280px));
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.doc-card {
+    position: relative;
     display: flex;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 1.75rem 1.5rem 1.5rem;
+    background: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+/* Signature: a thin top bar that fills in on hover/focus — the "selection" cue */
+.doc-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--accent-color);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.doc-card:hover,
+.doc-card:focus-visible {
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+}
+
+.doc-card:hover::before,
+.doc-card:focus-visible::before {
+    transform: scaleX(1);
+}
+
+.doc-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: var(--background-alt);
+    color: var(--accent-color);
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
-.cv-item .date {
-    min-width: 120px;
+.doc-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.4rem;
+}
+
+.doc-card p {
     color: var(--text-light);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
 }
 
-.cv-item .details h4 {
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
+.doc-card-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-color);
 }
 
-.cv-item .details p {
-    color: var(--text-light);
-    font-size: 0.9rem;
-    margin-bottom: 0;
+.doc-card-cta i {
+    font-size: 0.75rem;
+    transition: transform 0.2s ease;
 }
 
+.doc-card:hover .doc-card-cta i {
+    transform: translateX(3px);
+}
+
+@media (max-width: 560px) {
+    .doc-selector {
+        grid-template-columns: 1fr;
+    }
+}
 /* Speeches & Media */
 .item-list {
     display: flex;
