@@ -380,16 +380,18 @@ nav {
 }
 
 /* CV Page */
-.cv-download {
-    text-align: center;
-    margin-bottom: 2rem;
-}
+/* CV Page */
 .cv-download--split {
     display: flex;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
 }
+.cv-download {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .btn {
     display: inline-block;
     padding: 0.75rem 2rem;
@@ -433,6 +435,11 @@ nav {
     margin-bottom: 0.25rem;
 }
 
+.cv-item .details p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
 .cv-item .details p {
     color: var(--text-light);
     font-size: 0.9rem;
