@@ -442,6 +442,45 @@ nav {
     margin-bottom: 0;
 }
 /* Speeches & Media */
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.list-item {
+    padding: 1.5rem;
+    background: var(--background-alt);
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.list-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.list-item .date {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.list-item h4 {
+    margin-bottom: 0.5rem;
+}
+
+.list-item h4 a {
+    color: var(--primary-color);
+}
+
+.list-item h4 a:hover {
+    color: var(--accent-color);
+}
+
+.list-item .venue {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
 
 /* Honors Grid */
 .honors-grid {
