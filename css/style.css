@@ -384,7 +384,12 @@ nav {
     text-align: center;
     margin-bottom: 2rem;
 }
-
+.cv-download--split {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
 .btn {
     display: inline-block;
     padding: 0.75rem 2rem;
