@@ -136,6 +136,31 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+
+    // Cite panels (publications page): show/hide the BibTeX box
+    document.querySelectorAll('.cite-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            const panel = document.getElementById(btn.dataset.target);
+            if (!panel) return;
+            const opening = panel.hasAttribute('hidden');
+            panel.toggleAttribute('hidden', !opening);
+            btn.setAttribute('aria-expanded', opening ? 'true' : 'false');
+        });
+    });
+
+    // Cite panels: copy BibTeX to clipboard
+    document.querySelectorAll('.cite-copy').forEach(function(btn) {
+        btn.addEventListener('click', async function() {
+            const text = btn.closest('.cite-panel').querySelector('pre').innerText;
+            try {
+                await navigator.clipboard.writeText(text);
+                btn.textContent = 'Copied ✓';
+            } catch (e) {
+                btn.textContent = 'Press Ctrl+C';
+            }
+            setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+        });
+    });
 });
 
 console.log('%c Welcome to Vikhram S\'s Website ', 'background: #1a365d; color: white; font-size: 14px; padding: 10px;');
